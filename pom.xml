@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.Projekti</groupId>
-	<artifactId>Ikub</artifactId>
+	<artifactId>Projekt_MSHSIE</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Ikub</name>
+	<name>Projekt_MSHSIE</name>
 	<description>Projekt Perfundimtar</description>
 	<properties>
 		<java.version>1.8</java.version>

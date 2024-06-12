@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5781217c-f00c-4a9b-a3df-6b1e9f09a7c5" name="Changes" comment="Master">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/IkubApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/configuration/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/controller/BillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/controller/advice/GlobalExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/auth/AuthReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/auth/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/bill/BillDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/car/CarDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/user/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/dto/user/UserUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/entity/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/exceptions/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/exceptions/ErrorFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/exceptions/ExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/mapper/BillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/mapper/CarMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/mapper/user/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/repository/BillRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/repository/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/BillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/impl/BillServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/impl/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Projekti/Ikub/service/impl/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="5781217c-f00c-4a9b-a3df-6b1e9f09a7c5" name="Changes" comment="Master" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +30,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Njim9A7C3cIPCRlVWmagK3mIBy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -77,13 +45,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.IkubApplication.executor": "Run",
+    "JUnit.CarServiceTest.test_addCar_ok.executor": "Run",
+    "JUnit.CarServiceTest.test_findCarByUserId_ok.executor": "Run",
+    "JUnit.UserControllerTest.test_registerUser_ok.executor": "Run",
+    "JUnit.UserServiceTest.test_findById_ok.executor": "Run",
+    "JUnit.UserServiceTest.test_registerUser_ok.executor": "Run",
+    "JUnit.UserServiceTest.test_updateUser_ok.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/useR/MavenPrjkt/detyraEcommerceKursi",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Public/Music/Projekt",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20344828",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,82 +68,82 @@
       <recent name="C:\Users\useR\MavenPrjkt\Ikub\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarControllerTest.test_addCarToUser_ok">
-    <configuration name="CarControllerTest.test_addCarToUser_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ikub" />
+  <component name="RunManager" selected="JUnit.CarServiceTest.test_findCarByUserId_ok">
+    <configuration name="CarServiceTest.test_addCar_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_MSHSIE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Projekti.Ikub.controller.*" />
+          <option name="PATTERN" value="com.Projekti.MSHSIE.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Projekti.Ikub.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Projekti.Ikub.controller.CarControllerTest" />
-      <option name="METHOD_NAME" value="test_addCarToUser_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarControllerTest.test_addCar_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ikub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Projekti.Ikub.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Projekti.Ikub.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Projekti.Ikub.controller.CarControllerTest" />
+      <option name="PACKAGE_NAME" value="com.Projekti.MSHSIE.service" />
+      <option name="MAIN_CLASS_NAME" value="com.Projekti.MSHSIE.service.CarServiceTest" />
       <option name="METHOD_NAME" value="test_addCar_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarControllerTest.test_findCarById_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ikub" />
+    <configuration name="CarServiceTest.test_findCarByUserId_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_MSHSIE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Projekti.Ikub.controller.*" />
+          <option name="PATTERN" value="com.Projekti.MSHSIE.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Projekti.Ikub.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Projekti.Ikub.controller.CarControllerTest" />
-      <option name="METHOD_NAME" value="test_findCarById_ok" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarControllerTest.test_findCarByUserId_ko" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ikub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Projekti.Ikub.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Projekti.Ikub.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Projekti.Ikub.controller.CarControllerTest" />
-      <option name="METHOD_NAME" value="test_findCarByUserId_ko" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarControllerTest.test_findCarByUserId_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ikub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Projekti.Ikub.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Projekti.Ikub.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Projekti.Ikub.controller.CarControllerTest" />
+      <option name="PACKAGE_NAME" value="com.Projekti.MSHSIE.service" />
+      <option name="MAIN_CLASS_NAME" value="com.Projekti.MSHSIE.service.CarServiceTest" />
       <option name="METHOD_NAME" value="test_findCarByUserId_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.test_findById_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_MSHSIE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Projekti.MSHSIE.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Projekti.MSHSIE.service" />
+      <option name="MAIN_CLASS_NAME" value="com.Projekti.MSHSIE.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="test_findById_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.test_registerUser_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_MSHSIE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Projekti.MSHSIE.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Projekti.MSHSIE.service" />
+      <option name="MAIN_CLASS_NAME" value="com.Projekti.MSHSIE.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="test_registerUser_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.test_updateUser_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projekt_MSHSIE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Projekti.MSHSIE.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Projekti.MSHSIE.service" />
+      <option name="MAIN_CLASS_NAME" value="com.Projekti.MSHSIE.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="test_updateUser_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarControllerTest.test_addCarToUser_ok" />
-        <item itemvalue="JUnit.CarControllerTest.test_findCarByUserId_ko" />
-        <item itemvalue="JUnit.CarControllerTest.test_findCarByUserId_ok" />
-        <item itemvalue="JUnit.CarControllerTest.test_findCarById_ok" />
-        <item itemvalue="JUnit.CarControllerTest.test_addCar_ok" />
+        <item itemvalue="JUnit.CarServiceTest.test_findCarByUserId_ok" />
+        <item itemvalue="JUnit.UserServiceTest.test_updateUser_ok" />
+        <item itemvalue="JUnit.UserServiceTest.test_findById_ok" />
+        <item itemvalue="JUnit.UserServiceTest.test_registerUser_ok" />
+        <item itemvalue="JUnit.CarServiceTest.test_addCar_ok" />
       </list>
     </recent_temporary>
   </component>
